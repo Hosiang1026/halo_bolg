@@ -2,6 +2,7 @@ package cc.ryanc.halo;
 
 import cc.ryanc.halo.model.domain.Category;
 import cc.ryanc.halo.repository.CategoryRepository;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +16,7 @@ import java.util.List;
 @SpringBootTest
 public class ApplicationTests {
 
-	@Autowired
+	/*@Autowired
 	private CategoryRepository categoryRepository;
 
 	@Autowired
@@ -28,6 +29,6 @@ public class ApplicationTests {
 
 		List<Category> list2 = categoryRepository.findAll();
 		System.out.println("第二次查询："+list.get(0).getCateName());
-	}
+	}*/
 
 }

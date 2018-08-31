@@ -1,5 +1,6 @@
 package cc.ryanc.halo.utils;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -10,6 +11,7 @@ import org.junit.Test;
  */
 public class DemoUtilTest {
 
+    @Ignore
     @Test
     public void testZip(){
         //ZipUtils.unZip("/Users/ryan0up/Desktop/adminlog.html.zip","/Users/ryan0up/Desktop/");
